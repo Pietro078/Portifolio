@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Bella Stella';
-    src: url(/static/font/Bella\ Stella\ -\ Personal\ Use.otf);
+    src: url(font/Bella\ Stella\ -\ Personal\ Use.otf);
 }
 @font-face {
     font-family: 'Caviar';
-    src: url(/static/font/CaviarDreams.ttf);
+    src: url(font/CaviarDreams.ttf);
 }
 @font-face {
     font-family: 'Rows';
-    src: url(/static/font/Rows\ of\ Sunflowers.ttf);
+    src: url(font/Rows\ of\ Sunflowers.ttf);
 }
 
 

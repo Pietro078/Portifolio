@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Caviar';
-    src: url(/static/font/CaviarDreams.ttf);
+    src: url(font/CaviarDreams.ttf);
 }
 body{
     width: 100vw;

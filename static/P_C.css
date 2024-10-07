@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Rows';
-    src: url(/static/font/Rows\ of\ Sunflowers.ttf);
+    src: url(font/Rows\ of\ Sunflowers.ttf);
 }
 @font-face {
     font-family: 'Caviar';
-    src: url(/static/font/CaviarDreams.ttf);
+    src: url(font/CaviarDreams.ttf);
 }
 
 body{
