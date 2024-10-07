@@ -143,15 +143,29 @@ h2::after{
 
 @media screen and (max-width: 850px) {
     #historia{
-        margin: 0;
-        padding: 0;
-        width: 1000vw;
-        height: 200vh;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        
     }
+    p{
+        font-family: 'Caviar', sans-serif;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        align-items: center;
+        
+        font-size: 26px;
+        width: 125vw;
+    }
+
     body{
+
+        width: 130vw;
         background-image: linear-gradient(
             180deg,black , rgb(49, 49, 49)
         );
-        height: 180vh;
+        height: 170vh;
     }
 }
