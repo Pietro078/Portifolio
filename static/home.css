@@ -73,6 +73,7 @@ h3{
     width: 46vw;
     max-width: 60vw;
     min-width: 30vw;
+    color: rgb(255, 255, 255);
 }
 p{
     font-family: 'Caviar', sans-serif;
