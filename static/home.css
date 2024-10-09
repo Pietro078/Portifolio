@@ -13,8 +13,8 @@
 
 
 body{
-    width: 100%;
-    height: 100%;
+    width: 100dvw;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -29,43 +29,29 @@ a{
     text-decoration: none; /* Remove o sublinhado */
     color: inherit; /* Mantém a cor do texto como a cor padrão */
 }
-.escrita{
-    color: rgb(255, 255, 255);
-    font-weight: 500;
-    font-size: 20px;
-}
 
-#nome{   
-    align-items:center ;
-    text-align: center;
-}
 
-#top{
-    width: 95vw;
-    background-color: rgb(0, 0, 0);
+
+
+header{
+    width: 100dvw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 h1{
     font-family: 'Caviar', sans-serif;
     border-radius: 20px;
     
+    position: static;
 } 
 h2{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
     font-family: 'Caviar', sans-serif;
     transition: 1s;
-    
 }
 
-
-h3{
-    
-    margin-top: -20px;
-    font-family:'Rows', sans-serif;
-    font-weight: 100;
-    font-size: 60PX;
-    color: rgb(156, 49, 255);
-}
 
 
 #historia{
@@ -84,29 +70,27 @@ span{
     color: rgb(156, 49, 255);
 }
 
+#nome{  
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+    width: 100dvw;	
+    height: 30dvh;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
 
 
 
-
-
-/*  Animações  */
-
-h2:hover{
-    box-shadow: 0 0 8px 1px rgb(83, 50, 50);
-    transition: 1s; 
-    padding: 9px;
+h3{
     
-    border-radius: 20px;
-}
-h2::after{
-    font-family: 'Caviar', sans-serif;
-    transition: 0.5s;
-}
+    font-family:'Rows', sans-serif;
+    font-weight: 100;
+    font-size: 60PX;
+    color: rgb(156, 49, 255);
+    
 
-
-#mensagem{
-    display: block;
-    margin-left: 12% ;
+    
     border-right: 9px solid rgb(255, 255, 255);
     white-space: nowrap;
     overflow: hidden;
@@ -116,6 +100,25 @@ h2::after{
     
     animation: mark 0.5s step-end infinite, write 4s steps(14, end) infinite;
 }
+
+
+
+
+/*  Animações  */
+
+h2:hover{
+    box-shadow: 0 0 8px 1px rgb(83, 50, 50);
+    transition: 1s; 
+    margin: 9px;
+    
+    border-radius: 20px;
+}
+h2::after{
+    font-family: 'Caviar', sans-serif;
+    transition: 0.5s;
+}
+
+
 
 
 
@@ -150,23 +153,38 @@ h2::after{
         flex-direction: column;
         
     }
+    h2{
+        padding: 30px;
+    }
     p{
         font-family: 'Caviar', sans-serif;
         text-align: center;
         color: rgb(255, 255, 255);
         font-weight: 500;
         align-items: center;
-        
         font-size: 26px;
-        width: 125vw;
+        width: 100dvw;
     }
 
-    body{
+    h3{
+        margin-left: 0;
+        position: static;
+    }
 
+    #nome{  
+        justify-content: space-around;    
+    }
+    header{
+        width: 100dvw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
         width: 130vw;
         background-image: linear-gradient(
             180deg,black , rgb(49, 49, 49)
         );
-        height: 170vh;
+        height: 180dvh;
     }
 }
