@@ -69,7 +69,7 @@ p{
     font-size: larger;
 }
 span{
-    color: rgb(156, 49, 255);
+    color: rgb(255, 0, 0);
 }
 
 #nome{  
@@ -89,17 +89,13 @@ h3{
     font-family:'Rows', sans-serif;
     font-weight: 100;
     font-size: 60PX;
-    color: rgb(156, 49, 255);
-    
-
-    
+    color: rgb(255, 0, 0);
     border-right: 9px solid rgb(255, 255, 255);
     white-space: nowrap;
     overflow: hidden;
     align-items: center;
     text-align: center;
     width: 0ch;/*7*/
-    
     animation: mark 0.5s step-end infinite, write 4s steps(14, end) infinite;
 }
 
@@ -158,10 +154,8 @@ h2::after{
     }
     p{
         font-family: 'Caviar', sans-serif;
-
         color: rgb(255, 255, 255);
         font-weight: 500;
-
         font-size: 24px;
         width: 100%;
     }
