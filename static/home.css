@@ -13,8 +13,8 @@
 
 
 body{
-    width: 100dvw;
-    height: 100dvh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -34,9 +34,10 @@ a{
 
 
 header{
-    width: 100dvw;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 20px;
 }
 h1{
     font-family: 'Caviar', sans-serif;
@@ -45,6 +46,7 @@ h1{
     position: static;
 } 
 h2{
+    padding: 10px;
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 20px;
@@ -74,7 +76,7 @@ span{
     justify-content: center; 
     text-align: center;
     align-items: center;
-    width: 100dvw;	
+    width: 100%;	
     height: 30dvh;
     display: flex;
     color: rgb(255, 255, 255);
@@ -162,8 +164,8 @@ h2::after{
         color: rgb(255, 255, 255);
         font-weight: 500;
         align-items: center;
-        font-size: 26px;
-        width: 100dvw;
+        font-size: 24px;
+        width: 100%;
     }
 
     h3{
@@ -175,16 +177,16 @@ h2::after{
         justify-content: space-around;    
     }
     header{
-        width: 100dvw;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     body{
-        width: 130vw;
+        width: 100%;
         background-image: linear-gradient(
             180deg,black , rgb(49, 49, 49)
         );
-        height: 180dvh;
+        height: 100%;
     }
 }
