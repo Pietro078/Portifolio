@@ -41,10 +41,11 @@ header{
     position: fixed;
     box-shadow: 0px 0px 8px 0px black;
     width: 100%;
+    align-items: center;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 20px;
+    height: 60px;
 }
 h1{
     font-family: 'Caviar', sans-serif;
@@ -259,5 +260,12 @@ h2::after{
 }
 
 footer{
+    width: 100%;
     margin-top: 120px;
+    
+    justify-content: end;
+    display: flex;
+}
+footer h2{
+    margin-left: 30px;
 }
